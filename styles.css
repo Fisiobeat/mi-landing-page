@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background: #fff;
+}
+
+.header {
+    background: #333; /* Negro */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.header .logo {
+    width: 450px; /* Aumenta el tamaño del logo en un 50% más */
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .duration, .header .price {
+    font-size: 1.5em;
+    color: #FFD700; /* Dorado */
+    margin: 10px 0;
+}
+
+.header .duration {
+    margin-top: 160px; /* Ajusta el margen superior para alinear con el logo */
+}
+
+.header .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #FF7F50; /* Naranja */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section#descripcion {
+    background: #f9f9f9; /* Gris claro */
+}
+
+section#bloques {
+    background: #FFD700; /* Dorado claro */
+    color: #333;
+    padding: 50px 20px;
+}
+
+section#bloques ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#bloques ul li {
+    background: #FF7F50; /* Naranja */
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    color: white;
+}
+
+section#video {
+    background: #f9f9f9; /* Gris claro */
+}
+
+section#video .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+section#contacto {
+    background: #FF7F50; /* Naranja */
+    color: white;
+    padding: 50px 20px;
+}
+
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#contacto form label,
+section#contacto form input,
+section#contacto form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+section#contacto form input,
+section#contacto form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section#contacto form button {
+    padding: 10px 20px;
+    background: #333; /* Negro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background: #333; /* Negro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
